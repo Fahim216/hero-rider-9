@@ -1,11 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Hellow Hero Rider</h1>
+    <div className="app">
+<Header></Header>
+<div>
+  <Home></Home>
+</div>
     </div>
+    
+    
   );
 }
 
