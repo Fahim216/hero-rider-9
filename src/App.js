@@ -27,6 +27,7 @@ function App() {
   
   })
   return (
+    <div className='app'>
     <UserContext.Provider value={[loggedInUser,setLoggedInUser]}>
       
     <Router>
@@ -52,7 +53,7 @@ function App() {
     </Router>
     </UserContext.Provider>
   
-    
+    </div>
     
   );
 }

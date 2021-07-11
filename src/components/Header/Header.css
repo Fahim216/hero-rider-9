@@ -2,19 +2,21 @@
     display: flex;
     height: 100%;
     width: 100%;
-   /* background-image: url(../motorcyclist-fire-as-movie-ghost-rider-fire-man-riding-motorcycle-as-movie-ghost-rider-141021514.jpg); */
+
+   background-image: url(../motorcyclist-fire-as-movie-ghost-rider-fire-man-riding-motorcycle-as-movie-ghost-rider-141021514.jpg);
     
 }
 .hero-rider{
     margin-left: 40px;
     margin-top: 10px;
-    color: black;
+    color: white;
    
    
 }
 .nav{
     margin-left: 400px;
     margin-top: 40px;
+    
     
 }
 .nav li{
@@ -28,7 +30,7 @@
 }
 .nav a{
     text-decoration: none;
-  color: black;
+  color: white;
     font-weight: bold;
     padding:3px;
   

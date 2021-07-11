@@ -5,22 +5,26 @@ import {Card } from 'react-bootstrap';
 import bus from '../Frame-1.png';
 import car from '../car.png';
 import bike from '../bike.png'
+import bg from '../Bg (1).png';
 import train from '../5-54340_bullet-train-png-photos-japanese-bullet-train-png.png';
 
 
 const Home = () => {
-    const style={
-      marginLeft: "30px",
-      marginTop: "60px",
-      padding: "20px",
+    const styleHome={
+     
+      marginTop: "0px",
+      padding: "50px",
       textAlign: "center",
       display: "flex",
       color: "purple",
       borderRadius: "5px",
+      
+    
+
     }
     
     return (
-        <div style={style} className="Home-cart">
+        <div style={styleHome} className="Home-cart row col-sm-auto col-xs-6 col-md-12">
 
   <div className="card">
   <Card className="container">
